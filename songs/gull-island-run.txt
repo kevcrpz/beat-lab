@@ -1,0 +1,66 @@
+<!--
+  A SONG FILE. Each teammate writes at least one song of their own.
+  The cheat sheet is at the top of first-light.txt and in the README.
+
+  This song uses a sound that isn't built in: cowbell. The sound: line
+  below says which file it comes from (it's in the sounds folder).
+-->
+# Gull Island Run
+by: CS 1101
+tempo: 124
+steps: 16
+sound: cowbell = sounds/cowbell.wav
+volume: hat 45%
+volume: cowbell 70%
+
+## intro
+kick:    x  .  .  . | x  .  .  . | x  .  .  . | x  .  .  .
+hat:     .  .  x  . | .  .  x  . | .  .  x  . | .  .  x  .
+cowbell: x  .  .  x | .  .  x  . | x  .  .  x | .  .  x  .
+
+## part-a
+kick:    x  .  .  . | x  .  .  . | x  .  .  . | x  .  .  .
+clap:    .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:     x  x  X  x | x  x  X  x | x  x  X  x | x  x  X  x
+bass:    G2 .  G2 . | G2 .  G3 . | D2 .  D2 . | D2 .  D3 .
+
+## part-b
+kick:    x  .  .  . | x  .  .  . | x  .  .  . | x  .  .  .
+clap:    .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:     x  x  X  x | x  x  X  x | x  x  X  x | x  x  X  x
+bass:    E2 .  E2 . | E2 .  E3 . | C2 .  C2 . | C2 .  C3 .
+
+## lead-a
+kick:    x  .  .  . | x  .  .  . | x  .  .  . | x  .  .  .
+clap:    .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:     x  x  X  x | x  x  X  x | x  x  X  x | x  x  X  x
+bass:    G2 .  G2 . | G2 .  G3 . | D2 .  D2 . | D2 .  D3 .
+cowbell: x  .  .  x | .  .  x  . | x  .  .  x | .  .  x  .
+lead:    B4 .  D5 . | G5 -  F#5 . | A5 -  -  F#5 | .  D5 .  .
+
+## lead-b
+kick:    x  .  .  . | x  .  .  . | x  .  .  . | x  .  .  .
+clap:    .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:     x  x  X  x | x  x  X  x | x  x  X  x | x  x  X  x
+bass:    E2 .  E2 . | E2 .  E3 . | C2 .  C2 . | C2 .  C3 .
+cowbell: x  .  .  x | .  .  x  . | x  .  .  x | .  .  x  .
+lead:    E5 .  G5 . | B5 -  A5 . | G5 -  -  E5 | .  C5 .  .
+
+## break
+pad:     G3+B3+D4 - - - | - - - - | D3+F#3+A3 - - - | - - - -
+clap:    .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+cowbell: x  .  .  x | .  .  x  . | x  .  .  x | .  .  x  .
+
+## fill
+pad:     E3+G3+B3 - - - | - - - - | C3+E3+G3 - - - | - - - -
+clap:    .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+cowbell: x  .  .  x | .  .  x  . | x  .  .  x | .  .  x  .
+tom:     .  .  .  . | .  .  .  . | x  .  x  . | x  x  X  X
+
+## ending
+kick:    X  .  .  . | .  .  .  . | .  .  .  . | .  .  .  .
+cowbell: X  .  .  . | .  .  .  . | .  .  .  . | .  .  .  .
+pad:     G3+B3+D4 - - - | - - - - | - - - - | - - - -
+lead:    G5 -  -  - | -  -  -  - | .  .  .  . | .  .  .  .
+
+play: intro x2, part-a, part-b, part-a, part-b, lead-a, lead-b, lead-a, lead-b, break, fill, break, fill, lead-a, lead-b, lead-a, lead-b, part-a, part-b, ending

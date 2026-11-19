@@ -1,0 +1,69 @@
+<!--
+  A SONG FILE. Each teammate writes at least one song of their own.
+
+  Cheat sheet:
+    # Song Title               the title (one # sign)
+    by: Your Name              who wrote it
+    tempo: 84                  beats per minute, 40 to 220
+    steps: 16                  steps in every section (4 steps = 1 beat)
+    swing: 20%                 optional: makes it bounce (0% to 50%)
+    volume: hat 60%            optional: quieter or louder (100% is normal)
+    sound: cowbell = sounds/cowbell.wav     optional: your own sound
+
+    ## verse                   starts a section: a pattern of steps
+    kick: x . . . | x . . .    drums: x hit, X loud hit, . rest
+    bass: C2 - - . | G1 . . .  melody: notes like C4, F#3, Bb2. - holds a note
+    pad:  C4+E4+G4 - - -       + plays notes together (a chord)
+
+    play: intro, verse x2      the order the sections play in
+
+  Drums: kick, snare, hat, clap, tom.  Melody: bass, lead, pad, pluck.
+  The | marks are only there to make the beats easier to count.
+  Lines inside these comment marks are notes. Nobody hears them.
+-->
+# First Light
+by: CS 1101
+tempo: 84
+steps: 16
+volume: hat 55%
+
+## intro
+pad:   A3+C4+E4 - - - | - - - - | F3+A3+C4 - - - | - - - -
+hat:   .  .  x  . | .  .  x  . | .  .  x  . | .  .  x  .
+
+## groove-a
+kick:  x  .  .  . | .  .  .  . | x  .  x  . | .  .  .  .
+snare: .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:   x  .  x  . | x  .  x  . | x  .  x  . | x  .  x  .
+bass:  A2 -  -  - | .  .  A2 . | F2 -  -  - | .  .  G2 .
+pad:   A3+C4+E4 - - - | - - - - | F3+A3+C4 - - - | - - - -
+
+## groove-b
+kick:  x  .  .  . | .  .  .  . | x  .  x  . | .  .  .  .
+snare: .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:   x  .  x  . | x  .  x  . | x  .  x  . | x  .  x  .
+bass:  C3 -  -  - | .  .  C3 . | G2 -  -  - | .  .  G2 .
+pad:   C4+E4+G4 - - - | - - - - | G3+B3+D4 - - - | - - - -
+
+## tune-a
+kick:  x  .  .  . | .  .  .  . | x  .  x  . | .  .  .  .
+snare: .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:   x  .  x  . | x  .  x  . | x  .  x  . | x  .  x  .
+bass:  A2 -  -  - | .  .  A2 . | F2 -  -  - | .  .  G2 .
+pad:   A3+C4+E4 - - - | - - - - | F3+A3+C4 - - - | - - - -
+pluck: E5 .  .  C5 | .  .  A4 . | C5 .  .  A4 | .  G4 .  .
+
+## tune-b
+kick:  x  .  .  . | .  .  .  . | x  .  x  . | .  .  .  .
+snare: .  .  .  . | x  .  .  . | .  .  .  . | x  .  .  .
+hat:   x  .  x  . | x  .  x  . | x  .  x  . | x  .  x  .
+bass:  C3 -  -  - | .  .  C3 . | G2 -  -  - | .  .  G2 .
+pad:   C4+E4+G4 - - - | - - - - | G3+B3+D4 - - - | - - - -
+pluck: G4 .  .  E5 | .  .  D5 . | D5 .  .  B4 | .  G4 .  .
+
+## outro
+kick:  X  .  .  . | .  .  .  . | .  .  .  . | .  .  .  .
+pad:   A3+C4+E4 - - - | - - - - | - - - - | - - - -
+pluck: A4 .  .  . | E5 .  .  . | A5 .  .  . | .  .  .  .
+
+play: intro x2, groove-a, groove-b, groove-a, groove-b, tune-a, tune-b, tune-a, tune-b, tune-a, tune-b, groove-a, groove-b, outro

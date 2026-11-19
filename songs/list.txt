@@ -1,0 +1,6 @@
+<!--
+  SONGS/LIST.TXT: the album's track list. One song file per line, in the
+  order they play. A song file that isn't listed here never plays.
+-->
+first-light.txt
+gull-island-run.txt
