@@ -22,14 +22,14 @@
   Lines inside these comment marks are notes. Nobody hears them.
 -->
 # First Light
-by: CS 1101
+by: Kevin Corpus Hernandez
 tempo: 84
 steps: 16
 volume: hat 55%
 
 ## intro
 pad:   A3+C4+E4 - - - | - - - - | F3+A3+C4 - - - | - - - -
-hat:   .  .  x  . | .  .  x  . | .  .  x  . | .  .  x  .
+hat:   x  .  x  . | .  .  x  . | x  .  x  . | .  .  x  .
 
 ## groove-a
 kick:  x  .  .  . | .  .  .  . | x  .  x  . | .  .  .  .
